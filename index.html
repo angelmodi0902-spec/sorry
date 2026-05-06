@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="phone">
+
+  <!-- PASSWORD SCREEN -->
+  <div id="lockScreen" class="screen active">
+    <h2>Enter 4-digit passcode</h2>
+    <input type="password" id="passInput" maxlength="4" />
+  </div>
+
+  <!-- PAGE 1 -->
+  <div id="page1" class="screen">
+    <h1>I love you</h1>
+    <h1>I am sorry</h1>
+    <h1>Please read</h1>
+    <button onclick="nextPage(2)">Next</button>
+  </div>
+
+  <!-- PAGE 2 -->
+  <div id="page2" class="screen letter">
+    <div class="letter-content">
+      <p>Hi Aditya,</p>
+
+      <p>I am sorry for what happened. I know I fucked up big time. I know I ruined you and I know I ruined everything.</p>
+
+      <p>And trust me, more than you asked me that question, I have asked myself that question and I still don't know the answer to it, I am still figuring it out.</p>
+
+      <p>I know my attitude today may have seemed like I don't care, just leave, or I am not wrong. But I know I was wrong.</p>
+
+      <p>I realized the attitude that it might have come out as, because I was just trying not to cry and burst out.</p>
+
+      <p>I know I am no one to compare, but I know you are more hurt.</p>
+
+      <p>I know I am a bad human being. I have questioned myself multiple times.</p>
+
+      <p>I love you. I have not proved it ever, but I do.</p>
+
+      <p>I know there is no chance of us getting back together, but I just wanted you to know… you just loved me, and this is what you got.</p>
+
+      <p>Maybe loving me is the problem. Maybe you shouldn’t.</p>
+
+      <p>Please don’t love me, Aditya. I will stay away. I promise.</p>
+
+      <p>I’ll let you have the happiness you deserve, which I was never able to give.</p>
+
+      <p>This had to be digital, but I mean every word.</p>
+
+      <p>You felt like you were nothing to me, but you weren’t.</p>
+
+      <p>My first kiss… it meant a lot to me. And being that comfortable with you—it meant something real.</p>
+
+      <p>I don’t know why I did what I did. I was wrong. Completely.</p>
+
+      <p>I won’t hurt you again. I promise.</p>
+
+      <p>I love you. Take care. I’ll miss you.</p>
+
+      <p>Just because it’s ending doesn’t mean it was nothing. It meant a lot.</p>
+
+      <p>I changed. Not enough—but I did.</p>
+
+      <p>I’m sorry for ruining something that could’ve been beautiful.</p>
+
+      <p>I love you.</p>
+    </div>
+
+    <button onclick="nextPage(3)">Next</button>
+  </div>
+
+  <!-- PAGE 3 -->
+  <div id="page3" class="screen">
+    <h1>thankyou for everything</h1>
+    <h1>you’ve done A LOT for me</h1>
+    <h1>i genuinely appreciate it.</h1>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
